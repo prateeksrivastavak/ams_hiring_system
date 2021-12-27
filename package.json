@@ -1,0 +1,40 @@
+{
+  "name": "ams",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "ejs": "^2.5.7",
+    "include-all": "^1.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "rc": "1.0.1",
+    "sails": "~0.12.14",
+    "sails-disk": "~0.10.9",
+    "sails-generate-unittest": "0.0.4",
+    "sails-mysql": "^0.11.5"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "test": "mocha test"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prateek/bbapp.git"
+  },
+  "author": "prateek",
+  "license": "",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.1.0",
+    "sinon": "^4.1.4",
+    "skipper": "^0.8.4",
+    "supertest": "^3.0.0"
+  }
+}
