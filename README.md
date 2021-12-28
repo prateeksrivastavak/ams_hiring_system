@@ -27,9 +27,8 @@
 
  5. Encountered some errors related to node-config module about setting environment and config file in the same name as your environment variable. Look [here](https://github.com/lorenwest/node-config/wiki/Strict-Mode) for some common faced issues.
 
- 6. Setup wkhtmltopdf in your system using `sudo apt-get install wkhtmltopdf`
 
- 7. Install Redis Server/Client to make sure that queuing works or point to right redis server in dev-0.json inside config folder
+ 6. Install Redis Server/Client to make sure that queuing works or point to right redis server in dev-0.json inside config folder
 
 ## Configuration
 
