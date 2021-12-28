@@ -47,3 +47,10 @@
 ## How to Run?
 
 'node app.js' from your root path of the project
+
+## How to Call API ?
+
+'http://localhost:9095/api/v1/getAll?entity=[$nameofentity$]' for getAll
+
+'http://localhost:9095/api/v1/getDetails?entity=[$nameofentity$]&id=1' for getDetails
+
